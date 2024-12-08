@@ -1,0 +1,68 @@
+{
+  "version": "0",
+  "id": "6ef05c26-1742-1c67-47d3-faf63fa38b9b",
+  "detail-type": "AWS API Call via CloudTrail",
+  "source": "aws.ec2",
+  "account": "093879445146",
+  "time": "2024-12-07T19:56:39Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "eventVersion": "1.10",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAITWA2SUSY34EUEMHA",
+      "arn": "arn:aws:iam::093879445146:user/me_eric",
+      "accountId": "093879445146",
+      "accessKeyId": "ASIARLW5GU2NBMSET4XS",
+      "userName": "me_eric",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2024-12-07T17:36:28Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2024-12-07T19:56:39Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "ModifySecurityGroupRules",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "172.93.177.188",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "ModifySecurityGroupRulesRequest": {
+        "SecurityGroupRule": {
+          "SecurityGroupRuleId": "sgr-0f03b4601d47972fc",
+          "tag": 1,
+          "SecurityGroupRule": {
+            "CidrIpv4": "10.0.1.0/24",
+            "FromPort": 22,
+            "ToPort": 22,
+            "IpProtocol": "tcp"
+          }
+        },
+        "GroupId": "sg-0dab2e45ac98c87be"
+      }
+    },
+    "responseElements": {
+      "ModifySecurityGroupRulesResponse": {
+        "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+        "requestId": "6ce2cf3b-da02-4646-ae4f-0435c825434e",
+        "return": true
+      }
+    },
+    "requestID": "6ce2cf3b-da02-4646-ae4f-0435c825434e",
+    "eventID": "4044aae9-7f07-4197-ba6e-f6f6905bed65",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "093879445146",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "ec2.us-east-1.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  }
+}

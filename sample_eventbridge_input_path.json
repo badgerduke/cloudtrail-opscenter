@@ -1,0 +1,9 @@
+{
+  "account": "$.account",
+  "eventName": "$.detail.eventName",
+  "eventTime": "$.detail.eventTime",
+  "id": "$.detail.requestParameters.ModifySecurityGroupRulesRequest.GroupId",
+  "region": "$.region",
+  "source": "$.source",
+  "username": "$.detail.userIdentity.userName"
+}

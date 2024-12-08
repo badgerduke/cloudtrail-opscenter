@@ -1,0 +1,34 @@
+{
+  "title": "SG modified",
+  "description": "security_group_changes was triggered.",
+  "category": "Security",
+  "severity": "2",
+  "source": "EC2",
+  "operationalData": {
+          "/aws/dedup": {
+        "type": "SearchableString",
+        "value": "{\"dedupString\":\"ModifySecurityGroupRules\"}"
+    },
+      "source": {
+          "value": <source>
+      },
+      "username": {
+          "value": <username>
+      },
+      "eventName": {
+          "value": <eventName>
+      },
+      "eventTime": {
+         "value": <eventTime>
+      },
+      "account": {
+          "value": <account>
+      },
+      "region": {
+         "value": <region>
+      },
+      "id": {
+         "value": <id> 
+      }  
+  }
+}
