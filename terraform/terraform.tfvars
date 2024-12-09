@@ -11,10 +11,13 @@ custom_trail_S3_name = "cloudtrail-eventbridge-example"
 security_group_name = "demo-sg"
 
 # The name of the SNS topic
-#sns_topic_name = "demo-sns"
+sns_topic_name = "demo-sns"
 
 # The email address subscibing to the SNS topic
-#sns_email = "<your_email>"
+sns_email = "erichamacher@protonmail.com"
+
+# The name of the CloudWatch Alarm
+alarm_name = "DemoAlarm"
 
 # The name of the Eventbridge rule listening for security group changes
 eventbridge_rule_name = "security_group_changes"

@@ -18,7 +18,11 @@ variable "security_group_name" {
  description = "The name of the security group"
 }
 
-/*
+variable "alarm_name" {
+ type = string
+ description = "The name of the CloudWatch Alarm"
+}
+
 variable "sns_topic_name" {
  type = string
  description = "The name of the SNS topic"
@@ -28,7 +32,7 @@ variable "sns_email" {
  type = string
  description = "The email address subscibing to the SNS topic"
 }
-*/
+
 variable "eventbridge_rule_name" {
  type = string
  description = "The name of the Eventbridge rule listening for security group changes"
