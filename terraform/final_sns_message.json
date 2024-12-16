@@ -1,0 +1,22 @@
+{
+  "version": "0",
+  "id": "7cdf317b-2697-f498-91ba-ca779343d958",
+  "detail-type": "OpsItem Create",
+  "source": "aws.ssm",
+  "account": "093879445146",
+  "time": "2024-12-16T22:24:30Z",
+  "region": "us-east-1",
+  "resources": ["arn:aws:ssm:us-east-1:093879445146:opsitem/oi-52b3c483aa7d"],
+  "detail": {
+    "created-by": "arn:aws:sts::093879445146:assumed-role/demo-opsitem-create-role/5f3297f4dd4139ac86ca205de2379927",
+    "created-time": "2024-12-16T22:24:29.380419Z",
+    "source": "EC2",
+    "status": "Open",
+    "ops-item-id": "oi-52b3c483aa7d",
+    "title": "SG modified",
+    "category": "Security",
+    "severity": "2",
+    "ops-item-type": "/aws/issue",
+    "description": "security_group_changes was triggered."
+  }
+}

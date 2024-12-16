@@ -22,7 +22,7 @@ resource "aws_cloudwatch_event_rule" "rule_for_sg_change" {
 }  
  
 resource "aws_cloudwatch_event_target" "opsitem" {
-  rule      = aws_cloudwatch_event_rule.rule_for_opsitem_create.name
+  rule      = aws_cloudwatch_event_rule.rule_for_sg_change.name
   target_id = "SendToOpsCenter"
   arn       = "arn:aws:ssm:us-east-1:093879445146:opsitem"
   role_arn  = aws_iam_role.opsitem_create.arn
