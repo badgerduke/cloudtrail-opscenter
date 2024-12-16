@@ -14,7 +14,7 @@ security_group_name = "demo-sg"
 sns_topic_name = "demo-sns"
 
 # The email address subscibing to the SNS topic
-sns_email = "erichamacher@protonmail.com"
+sns_email = "<your_email>"
 
 # The name of the CloudWatch Alarm
 alarm_name = "DemoAlarm"
